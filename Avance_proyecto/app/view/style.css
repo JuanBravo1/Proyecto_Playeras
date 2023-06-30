@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+.header h1 {
+  color: #333;
+}
+
+.navbar ul {
+  list-style-type: none;
+}
+
+.navbar ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+.navbar ul li a {
+  color: #333;
+}
+
+.content {
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+  color: #888;
+}
