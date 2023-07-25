@@ -1,0 +1,191 @@
+*{
+    font-family:sans-serif;
+  }
+  /*CSS Menu*/
+  body{
+    margin:0;
+    background: gray;
+  }
+  span{
+    color:green;
+  }
+  img {
+    width: 300px; /* O un valor en píxeles, por ejemplo: width: 300px; */
+    height: auto; /* Esto mantendrá la proporción de aspecto original de las imágenes */
+  }
+
+  .carusel-container {
+    height: 800px; /* Establece la altura deseada del carrusel */
+    overflow: hidden; /* Para recortar cualquier parte de las imágenes que exceda la altura */
+    }
+  
+  .carusel-slide img {
+    width: 800px;
+    height: auto; /* Mantendrá la proporción de aspecto original de las imágenes */
+    object-fit: cover; /* Ajustará las imágenes para cubrir completamente el contenedor */
+  }
+  .carusel-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+  }
+  .carusel-section2 {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+  
+  
+  .menu {
+    background: black;
+    height: 60px;
+    border-bottom: 1px solid black;
+    display:flex;
+    justify-content: space-between;
+  }
+  .menu a{
+    font-family: impact;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    flex: 1;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .menu a:hover{
+    background: #D14A9A;
+    color: black;
+  }
+  .a-1{
+    background: black;
+  }
+  /*Encabezado*/
+  .main-section{
+    height: 600px;
+    width: 100%;
+    background-image: url('http://localhost/EstampArte/App/Views/Public/Resources/Carrousel/Anime.jpg');
+    position: relative;
+    background-size:cover;
+  }
+  .overlay {
+    
+    position: absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+  }
+  .logos {
+    margin-left:15px;
+  }
+  .let-white{
+    color:white;
+    margin-bottom:50px;
+  }
+  .espace {
+      margin-left:25%;
+  }
+   /*Acerca de mi*/
+  .col-md-1 {
+      padding:1rem;
+      margin:1rem;
+      }
+  .col-md-2{
+      padding:1rem;
+      margin:1rem;
+      
+    }
+  .foto{
+      display: inline block;
+      height: 300px;
+      padding: 5px;
+    }
+  
+  .d-flex-md{
+      display:flex;
+    }
+  .col-md-3 {
+      width:25%;
+      padding:1rem;
+      margin:1rem;
+    }
+  /*Componentes*/
+  .card {
+    background:black;
+    color:white;
+    padding:1rem;
+    height:100%;
+    transform: scale(1);
+    transition: all 1s;
+  }
+  .card:hover{
+    /*efecto tarjeta aumentada*/
+    transform: scale(1.1);
+    background: #D14A9A;
+    color: black;
+    transition: all 0.7s;
+  } 
+  /*Clases genericas*/
+  .hg-light {
+    background: #686565;
+  }
+  section {
+    padding:5%
+  }
+  .justify-content-center {
+    justify-content: center;
+  }
+  .text-center {
+    text-align: center;
+  }
+  .glitch-effect:hover {
+    text-shadow: black -4px 0, white 4px 0;
+  }
+
+  
+  /*Titulos*/
+  .title-2 {
+    display:block;
+    margin-bottom:15px;
+    font-size:4rem;
+    color: #D14A9A;
+    
+  }
+  .title-3 {
+    font-size:2rem;
+    color:#D14A9A;
+    
+  }
+  .title-4 {
+    font-size:1.3rem;
+  }
+  /*Pie de pagina*/
+  i {
+      height:10px;
+    color:white;
+    } 
+  article {
+      position:absolute;
+    margin-top:70px;
+    margin-right:200px;
+    }
+  .main-a {
+      background: Black;
+    color:white;
+    }
+  .ver-ali {
+    display:flex;
+    justify-content:center;
+    margin-top:100px;
+  }
+    
+
+  .main-section2{
+    height: 600px;
+    width: 100%;
+    background-image: url('http://localhost/EstampArte/App/Views/Public/Resources/Carrousel/Videojuegos.jpg');
+    position: relative;
+    background-size:cover;
+  }
